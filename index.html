@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <title>PokéDex</title>
+</head>
+<body>
+ 
+    <div class="cabecalho">
+        <img src="images/cabecalho_pokemon.png" alt="cabecalho" class="img">
+        <img src="images/pqp.png" alt="kkk">
+    </div>
+
+    <div class="barra">
+
+        <h2>Who's That Pokémon??</h2>
+        <div id="divBusca">
+            <form class="form">
+            <input type="search" class="input__search" placeholder="Enter a number..." required>
+            <button class="input_lado" id="btnBusca">Search</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="conteudo">
+        <center>
+            <h2>List of Pokémons</h2>
+            <br><br>
+            <img src="#" alt="pokemon" class="pokemon__image">
+            <br>
+            <h1 class="pokemon__data">
+              <span class="pokemon__number"></span> -
+              <span class="pokemon__name"></span>
+            </h1>
+            <br>
+            <div class="buttons">
+                <button class="button btn-prev">Prev &lt;</button>
+                <button class="button btn-next">Next &gt;</button>
+                <br>
+                <br>
+
+            </div>
+
+            <div class="container">
+                <div class="search-bar">
+                    <label for="search">Pokemon:</label>
+                    <input type="text" id="pokemon-search" placeholder="Search for name...">
+                    <button class="input_lado" id="btnBusca">Search</button>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <button id="pokemon-list" class="pokemon-list"></button>
+                <div id="pokemon-list">
+                    <!-- Conteúdo dos Pokémon aqui -->
+                </div>
+               
+                <div id="pokemon-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <!-- Conteúdo do modal -->
+                    </div>
+                </div>
+            </div>
+        </center>
+        </div>
+        
+    </div>
+
+    <div class="rodape">
+        Desenvolvido por: Maria Eduarda Alves Nunes
+            <h1>Consumindo dados API</h1>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

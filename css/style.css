@@ -1,0 +1,100 @@
+.body{
+    background-color: beige;
+}
+
+
+.cabecalho {
+    height: 250px;
+   
+
+}
+
+*{
+    font-family: 'Teko';
+    font-size: 20px;
+}
+
+.barra {
+    height: 100px;
+    text-align: center;
+}
+
+.input_lado{   
+   align-items: center;
+}
+
+.divBusca {
+
+    background-color: transparent;
+    height: 30px;
+    padding-left:5px;
+    font-size:18px;
+}
+
+
+.conteudo {
+    height: auto ;
+}
+
+.rodape {
+    text-align: center;
+    font-size: large;
+    height: 60px;
+    background-color: #24AF9F ;
+}
+
+.img {
+    height: 250px;
+    width: 1500px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ 
+ .pokemon-card {
+    background-color: #F1F1F1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .pokemon-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+ }
+ .search-bar {
+    background-color: #24AF9F;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+ }
+ 
+ .search-bar input[type="text"] {
+    border: 2px solid #000000;
+    padding-left: 10px;
+    border-radius: 6px;
+    width: 600px;
+    height: 30px;
+ }
+ 
+ .search-bar button {
+    float: right;
+    background-color: white;
+    height: 30px;
+    padding-left:5px;
+    font-size:18px;
+ }
+ 
+ .search-bar button:hover {
+    background-color: #b6b6b6;
+ }
+
